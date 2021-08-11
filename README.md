@@ -1,5 +1,7 @@
 # trnews-64 dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5180654.svg)](https://doi.org/10.5281/zenodo.5180654)
+
 __trnews-64__ is a character language modeling dataset that contain 64 million words of news articles and columns.
 It can be utilized as a benchmark for different modeling long range dependencies in Turkish language.
 
@@ -8,6 +10,16 @@ This dataset contains a mix of news articles from different topics and journals 
 ## Preprocessing
 
 This dataset was preprocessed and clean from infrequent characters. The main character set is shared in the file `tr.charset.json`, which contains 124 characters in total. This includes Turkish upper/lower case characters along with punctuations and some other common characters. 
+
+## Download
+
+The dataset is hosted on [Zenodo](https://zenodo.org/), it can be downloaded using the following:
+
+```bash
+wget -O trnews-64.tar.bz2 https://zenodo.org/record/5180654/files/trnews-64.tar.bz2?download=1
+tar -xf trnews-64.tar.bz2
+rm trnews-64.tar.bz2
+```
 
 ## Details
 
@@ -57,6 +69,10 @@ with open("trnews-64.test.raw") as fi:
   url          = {https://doi.org/10.5281/zenodo.5180654}
 }
 ```
+
+## License
+
+This dataset is licensed under [Creative Commons Attribution 4.0 International](./LICENSE) license.
 
 ## Contact
 
