@@ -1,6 +1,6 @@
 # trnews-64 dataset
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5180654.svg)](https://doi.org/10.5281/zenodo.5180654)
+<a href="https://doi.org/10.5281/zenodo.5180654"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5180654.svg" alt="DOI"></a>
 
 __trnews-64__ is a character language modeling dataset that contain 64 million words of news articles and columns.
 It can be utilized as a benchmark for different modeling long range dependencies in Turkish language.
